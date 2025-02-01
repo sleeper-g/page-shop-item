@@ -6,7 +6,7 @@ branches:
     - main
 cache: node_modules
 install:
-  - npm
+  - npm install
 build: off
 build_script:
   - npm run build
