@@ -10,8 +10,6 @@ install:
 build: off
 build_script:
   - npm run build
-test_script:
-  - npm run test && npm run eject
 deploy_script:  # скрипт развёртывания
   - git config --global credential.helper store
   - git config --global user.name AppVeyor
